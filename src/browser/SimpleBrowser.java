@@ -97,6 +97,12 @@ public class SimpleBrowser extends JFrame {
         SwingUtilities.invokeLater(() -> {
             SimpleBrowser browser = new SimpleBrowser();
             browser.setVisible(true);
+
+            System.out.println("Hello");
+            System.out.println("Hello1");
+            System.out.println("Hello2");
+            System.out.println("Hello3");
+
         });
     }
 }
